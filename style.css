@@ -1,0 +1,61 @@
+body{
+    background-color: greenyellow;
+}
+.box{
+    display: flex;
+    background-color: black;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+@media only screen and (max-width:455px)
+{
+ .box{
+    flex-direction: column;
+    background-color: crimson;
+ }
+}
+   
+.b{
+    background-color: rgb(239, 144, 110);
+    border: 2px solid black;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    z-index: 1;
+     cursor: pointer;
+
+
+}
+.i{
+    width: 400px;
+    height: 40px;
+    
+}
